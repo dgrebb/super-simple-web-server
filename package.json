@@ -1,0 +1,25 @@
+{
+  "name": "super-simple-web-server",
+  "version": "0.0.1",
+  "description": "Forked from garris/superSimpleExpressServer. Super simple node-express web server with https option for when you quickly need to serve some static files. Package includes self-signed certificates. Don't use this for production.",
+  "repository": {
+    "type": "git",
+    "author": "dgrebb",
+    "url": "https://github.com/dgrebb/superSimpleExpressServer.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "author": {
+    "name": "garris",
+    "url": "https://github.com/dgrebb/superSimpleExpressServer.git"
+  },
+  "contributors": [
+    "dgrebb"
+  ],
+  "license": "MIT"
+}
